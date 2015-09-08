@@ -1,0 +1,60 @@
+  git clone https://github.com/jlopezCutonala/arcadian-octo-kumquat.git #Clonar repositorio localmente
+  ls
+  git branch #Ver las ramas del repositorio
+  cd arcadian-octo-kumquat/
+  git branch 
+  clear
+  git branch
+  git log #Ver el historial de commits
+  gitk #Ver el historial de commit de forma gráfica
+  cd academia/2015B/programacionIV/programas/
+  cd arcadian-octo-kumquat/
+  ls
+  git branch develop #Crear rama develop --- git branch nombreRama
+  git branch
+  git checkout develop #Cambiar la rama de trabajo --- git checkout nombreRama
+  git branch
+  vim index.html #Abrir el archivo en vim, puede ser con otro editor de textos
+  git commit --interactive #Crear nuevo commit
+  git status #Verificar el estado de los archivos del repositorio
+  git diff #Verificar las diferencias en los archivos
+  git commit --interactive
+  gitk
+  vim index.html 
+  git status
+  git diff
+  git commit --interactive
+  gitk
+  vim index.html 
+  git diff
+  git commit --interactive
+  gitk
+  git status
+  git diff
+  man diff
+  free -m
+  git branch
+  git checkout master
+  git branch
+  git checkout develop
+  git branch
+  git checkout master #Cambiarse a rama master
+  git merge develop  #Mezclar los cambios de la rama develop en la rama actual(master) --- git merge nombreRama
+  gitk
+  git push origin master
+  gitk
+  git branch funcionalidad
+  git branch
+  git checkout funcionalidad
+  git branch
+  vim index.html 
+  git commit --interactive
+  vim index.html 
+  git commit --interactive
+  git branch
+  git checkout master
+  git branch
+  git branch -d funcionalidad #Eliminar rama --- git branch -d nombreRama
+  git branch -D funcionalidad #Forzar la eliminacion de la rama -- git branch -D nombreRama
+  vim index.html
+  man git #Manual de git
